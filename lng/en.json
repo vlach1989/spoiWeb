@@ -1,0 +1,54 @@
+{  
+   "menu":[  
+      "HOME",
+      "VISUALIZATION",
+      "ABOUT",
+      "METHODOLOGY",
+      "LINKS",
+      "CONTACT"
+   ],
+   "banner":{  
+      "headline":"Over 23,000,000 Points of Interest in the data set",
+      "headline_text":"Open and seamless SPOI data set, which is based on Linked data principles, contains over 23 million Points of Interest important for tourism from Europe and Africa."
+   },
+   "section_visualization":{  
+      "visualization":"Visualization",
+      "headlines_button_item":"GO TO FULL EXTENT"
+   },
+   "section_about":{  
+      "about":"What is SPOI data set?",
+      "about_texts":[  
+         "The Smart Points of Interest data set is the seamless and open resource of POIs that is available for other users to download, search or reuse in applications and services.",
+         "Its principal target is to provide information for cycling as Linked data together with other data set containing road network.",
+         "The added value of the Smart approach in comparison to other similar solutions consists in implementation of linked data, using of standardized and respected datatype properties and development of the completely harmonized data set with uniform data model and common classification."
+      ]
+   },
+   "section_contribution":{  
+      "contribution":"Why use SPOI data set?",
+      "contribution_boxes_h":[  
+         "OPEN AND SEAMLESS DATABASE",
+         "OPEN AND FLEXIBLE DATA MODEL",
+         "COMBINATION OF GLOBAL AND LOCAL DATA"
+      ],
+      "contribution_boxes_p":[  
+         "The SDI4Apps team developed a seamless open database of POIs, which will be distributed as 5-star Linked Open Data to be accessible for all users.",
+         "The essential core of the model was extended by several attributes which are integral components of some original data and could be helpful for tourist purposes.",
+         "The SPOI data set is created as a combination of global data (selected points from OpenStreetMap) and local data provided by the SDI4Apps partners or data available on the web."
+      ]
+   },
+   "section_links":{  
+      "links":"Links",
+      "links_boxes_h":[  
+         "SPARQL ENDPOINT",
+         "DOWNLOAD",
+         "SDI4Apps PROJECT"
+      ],
+      "links_boxes_p":[  
+         "The SPOI data set is published via SPARQL endpoint which enables comfortable, efficient and standardized querying of data.",
+         "S4A is an EU-funded project coordinated by the University of West Bohemia (Pilsen, CZ). It seeks to build a cloud-based framework with open APIs for data integration focusing on the development of 6 pilot applications."
+      ]
+   },
+   "section_contact":{  
+      "contact":"Contact"
+   }
+}

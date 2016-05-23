@@ -1,0 +1,54 @@
+{  
+   "menu":[  
+      "SĀKUMS",
+      "VIZUALIZĀCIJA",
+      "PAR",
+      "IEGUVUMI",
+      "SAITES",
+      "KONTAKTI"
+   ],
+   "banner":{  
+      "headline":"Vairāk nekā 23,000,000 interešu punkti datu kopā",
+      "headline_text":"Atvērtā un vienotā SPOI datu kopa, kura veidota ievērojot Saistīto datu principus, ietver vairāk nekā 23 miljonus interešu punktu, kas ir svarīgi tūrismam Eiropā un Āfrikā."
+   },
+   "section_visualization":{  
+      "visualization":"Vizualizācija",
+      "headlines_button_item":"IET UZ PILNU TEKSTU"
+   },
+   "section_about":{  
+      "about":"Kas ir SPOI datu kopa?",
+      "about_texts":[  
+         "Smart interešu punktu datu kopa ir vienots un atvērts datu kopu resurss, kas ir pieejams lietotājiem datu lejupielādei, meklēšanai vai atkārtotai lietojumprogrammu un pakalpojumu izmantošanai.",
+         "Tās galvenais mērķis ir sniegt informāciju par riteņbraukšanu kā Saistītos datus kontekstā ar citiem datiem, kas ietver ceļu tīklu.",
+         "Smart pieejas radītā pievienotā vērtība, salīdzinot ar citiem līdzīgiem risinājumiem, ir Saistīto datu veidošana, izmantojot standartizētus un vispārpieņemtus datu atribūtus un harmonizētu datu kopu veidošanu ar vienotu datu modeli un klasifikāciju."
+      ]
+   },
+   "section_contribution":{  
+      "contribution":"Kāpēc izmantot SPOI datu kopu?",
+      "contribution_boxes_h":[  
+         "ATVĒRTA UN VIENOTA DATU BĀZE",
+         "ATVĒRTS UN ELASTĪGS DATU MODELIS",
+         "GLOBĀLO UN VIETĒJO DATU KOMBINĀCIJA"
+      ],
+      "contribution_boxes_p":[  
+         "SDI4Apps komanda ir izveidojusi vienotu interešu punktu atvērto datubāzi, kas tiks izplatīta kā 5 zvaigžņu Saistītie atvērtie dati, lai būtu pieejami visiem lietotājiem.",
+         "Modeļa kodols tika paplašināts ar vairākiem atribūtiem, kas ir atsevišķu oriģinālo datu neatņemama sastāvdaļa un varētu būt noderīgi tūrisma nozarē.",
+         "SPOI datu kopa ir veidota kā kombinācija no globālajiem datiem (izvēlēti punkti no OpenStreetMap) un vietējiem datiem, ko piedāvājuši SDI4Apps projekta partneri vai kas ir pieejams internetā."
+      ]
+   },
+   "section_links":{  
+      "links":"Saites",
+      "links_boxes_h":[  
+         "SPARQL ENDPOINT",
+         "LEJUPLĀDĒT",
+         "PROJEKTS SDI4Apps"
+      ],
+      "links_boxes_p":[  
+         "SPOI datu kopa ir publicēta caur SPARQL galapunktu, kas ļauj ērtu, efektīvu un standartizētu datu vaicājumu ievadi.",
+         "SDI4Apps ir Eiropas Savienības finansēts projekts, tā vadošais partneris ir Rietumbohēmijas Universitāte (Pilzene, Čehija). Tā mērķis ir izveidot mākonī balstītu struktūru ar atvērtu lietojumprogrammas saskarni datu integrācijai, fokusējoties uz 6 pilot aplikāciju izveidi."
+      ]
+   },
+   "section_contact":{  
+      "contact":"Kontakti"
+   }
+}

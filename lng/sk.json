@@ -1,0 +1,54 @@
+{  
+   "menu":[  
+      "DOMOV",
+      "VIZUALIZÁCIA",
+      "O ZDROJI",
+      "METODOLÓGIA",
+      "ODKAZY",
+      "KONTAKT"
+   ],
+   "banner":{  
+      "headline":"Dataset obsahuje viac než 23,000,000 bodov záujmu",
+      "headline_text":"Otvorený a bezošvý SPOI data set, ktorý je vytvorený na princípoch prepojených dát, obsahujúci dôležité Body záujmu pre oblasť turizmu pre Európu a Afriku."
+   },
+   "section_visualization":{  
+      "visualization":"Vizualizácia",
+      "headlines_button_item":"CHOĎ NA PLNÝ OBSAH"
+   },
+   "section_about":{  
+      "about":"Čo je SPOI data set?",
+      "about_texts":[  
+         "Smart data set \"Bodov záujmu\" je otvorený zdroj POI, ktorý je dostupný pre iných užívateľov na stiahnutie, hľadanie alebo opätovné použitie v aplikáciách a službách.",
+         "Jeho základným cieľom je poskytnúť informácie pre cyklistiku ako prepojené dáta s inými datasetmi obsahujúcimi cestnú sieť.",
+         "Pridaná hodnota prístupu Smart v porovnaní s inými porovnateľnými riešeniami spočíva v implementácii prepojených dát, použitím štandardizovaných a rešpektovaných dátových typov a vývoj kompletne harmonizovaného datasetu s harmonizovaným dátovým modelom a klasifikáciou."
+      ]
+   },
+   "section_contribution":{  
+      "contribution":"Prečo použiť SPOI data set?",
+      "contribution_boxes_h":[  
+         "OTVORENÁ A BEZOŠVÁ DATABÁZA",
+         "OTVORENÝ FLEXIBILNÝ DÁTOVÝ MODEL",
+         "KOMBINÁCIA GLOBÁLNYCH A LOKÁLNYCH DÁT"
+      ],
+      "contribution_boxes_p":[  
+         "Tím SDI4Apps vyvinul otvorenú a bezošvú databázu \"Bodov záujmu\", ktoré budú distribuované ako 5 hviezdičkové Prepojené Otvorené Dáta dostupné pre všetkých užívateľov.",
+         "Kľúčový základný model bol rozšírený viacerými atribútmi, ktoré sú integrálnou súčasťou niektorých pôvodných dát a mohli by byť nápomocné pre turistické účely.",
+         "SPOI dataset je vytvorený ako kombinácia globálnych dát (vybrané body záumy z OpenStreetMap) a lokálnych dát poskytnutých partnermi SDI4Apps alebo dostupnými dátami z internetu."
+      ]
+   },
+   "section_links":{  
+      "links":"Odkazy",
+      "links_boxes_h":[  
+         "SPARQL ROZHRANIE",
+         "STIAHNUŤ",
+         "PROJEKT SDI4Apps "
+      ],
+      "links_boxes_p":[  
+         "SPOI dataset je publikovaný prostredníctvom SPARQL rozhrania, ktoré umožňuje pohodlné, efektívné a štandardizované dopytovanie dát.",
+         "S4A je projekt podporený Európskou Úniou, koordinovaný Západočeskou univerzitou (Plzeň, ČR). Jeho zámerom je vybudovanie rámcového cloudového riešenia s otvorenými Aplikačno programovými rozhraniami (API) pre integrované dáta so sústredením na 6 pilotných aplikácií."
+      ]
+   },
+   "section_contact":{  
+      "contact":"Kontakt"
+   }
+}

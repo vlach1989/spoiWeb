@@ -1,0 +1,54 @@
+{  
+   "menu":[  
+      "DOMŮ",
+      "VIZUALIZACE",
+      "POPIS",
+      "VÝHODY",
+      "ODKAZY",
+      "KONTAKT"
+   ],
+   "banner":{  
+      "headline":"Přes 23 000 000 turistických zájmových bodů",
+      "headline_text":"Otevřená a bezešvá datová sada, založená na principech Linked Data. Obsahuje přes 23 000 000 zájmových bodů z Evropy a Afriky, využitelných zejména pro cykloturistiku."
+   },
+   "section_visualization":{  
+      "visualization":"Vizualizace",
+      "headlines_button_item":"PŘEJÍT NA MAPU"
+   },
+   "section_about":{  
+      "about":"Co je datová sada SPOI?",
+      "about_texts":[  
+         "Smart POI datová sada (POI = Point of Interest) je bezešvý a volně přístupný zdroj zájmových bodů, umožňující uživatelům tyto body stahovat, vyhledávat a používat pro vlastní aplikace.",
+         "Základním cílem SPOI datové sady je poskytovat formou Linked Data informace pro cykloturistiku propojené s dalšími sadami dat, včetně silničních sítí.",
+         "Přínos Smart přístupu při porovnání s ostatními řešeními stejného problému spočívá v implementaci Linked Data, v použití standardizovaných a uznávaných datových typů a jejich vlastností a v rozvoji plně harmonizované databáze s jednotným datovým modelem a společným základním tříděním."
+      ]
+   },
+   "section_contribution":{  
+      "contribution":"Proč používat datovou sadu SPOI?",
+      "contribution_boxes_h":[  
+         "OTEVŘENÁ A BEZEŠVÁ DATA",
+         "OTEVŘENÝ A FLEXIBILNÍ DATOVÝ MODEL",
+         "KOMBINACE GLOBÁLNÍCH A LOKÁLNÍCH DAT"
+      ],
+      "contribution_boxes_p":[  
+         "Tým SDI4Apps vytvořil bezešvou volně přístupnou databázi, v které jsou Zájmové body uchovávány jako 5-hvězdičková Linked Open Data a body jsou tak volně přístupné všem uživatelům.",
+         "Základní jádro modelu je rozšířeno o další atributy, které jsou součástí některých původních dat a které mohou být užitečné pro turistiku.",
+         "SPOI kombinuje vybraná globální data z OpenStreetMap s místními daty volně dostupnými z internetu, nebo poskytovanými partnery SDI4Apps."
+      ]
+   },
+   "section_links":{  
+      "links":"Odkazy",
+      "links_boxes_h":[  
+         "SPARQL ENDPOINT",
+         "KE STAŽENÍ",
+         "PROJEKT SDI4Apps"
+      ],
+      "links_boxes_p":[  
+         "Datová sada SPOI je publikována přes SPARQL endpoint, který poskytuje pohodlné, efektivní a standardizované dotazování.",
+         "SDI4Apps je projekt financovaný Evropskou unií, hlavním koordinátorem je Západočeská univerzita v Plzni. Snaží se o vytvoření rámce pro integraci dat v cloudu s volně přístupnými API, zejména se zaměřením na stanovené pilotní aplikace."
+      ]
+   },
+   "section_contact":{  
+      "contact":"Kontakt"
+   }
+}

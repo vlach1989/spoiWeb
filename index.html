@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SPOI data set</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="POI, Open data, SDI4Apps">
+    <meta name="author" content="SDI4Apps, Pavel Vlach">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style_spoi.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="width_settings">
+            <h1 id="page_title"><a href="#"><em class="blue">Smart </em>POI data set</a></h1>
+			<h1 id="page_title_small"><a href="#">SPOI data set</a></h1>
+            <nav id="menu">
+                <ul>
+                    <li data-target="body">HOME</li>
+                    <li data-target="#visualization">VISUALIZATION</li>
+                    <li data-target="#about">ABOUT</li>
+                    <li data-target="#contribution">METHODOLOGY</li>
+                    <li data-target="#links">LINKS</li>
+                    <li data-target="#contact">CONTACT</li>
+                </ul>
+            </nav>
+			<div id="languages">
+				<button class="flags" value="&shy;" id="en"></button>
+				<button class="flags" value="&shy;" id="cz"></button>
+				<button class="flags" value="&shy;" id="it"></button>
+				<button class="flags" value="&shy;" id="gr"></button>
+				<button class="flags" value="&shy;" id="lv"></button>
+				<button class="flags" value="&shy;" id="sk"></button>
+			</div>
+			
+			<!-- Navigation for low resolutions -->
+            <div id="menu_icon">
+                <button id="menu_icon_button" type="button" value="&shy;"></button>
+            </div>
+            <div id="menu_mobile">
+                <button class="menu_mobile_button" type="button" data-target="body">HOME</button>
+                <button class="menu_mobile_button" type="button" data-target="#visualization">VISUALIZATION</button>
+                <button class="menu_mobile_button" type="button" data-target="#about">ABOUT</button>
+                <button class="menu_mobile_button" type="button" data-target="#contribution">METHODOLOGY</button>
+                <button class="menu_mobile_button" type="button" data-target="#links">LINKS</button>
+                <button class="menu_mobile_button" type="button" data-target="#contact">CONTACT</button>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="width_settings">
+            <div id="banner_box">
+                <h2 id="headline">Over 23,000,000 Points of Interest in the data set</h2>
+                <p id="headline_text">Open and seamless SPOI data set, which is based on Linked&nbsp;data principles, contains over 23&nbsp;million Points&nbsp;of&nbsp;Interest important for tourism from Europe and Africa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_visualization">
+        <div class="width_settings">
+            <h3 id="visualization">Visualization</h3>
+            <div class="colored_line"></div>
+            <iframe id="map" src="http://ng.hslayers.org/examples/geosparql/"></iframe>
+            <button class="headlines_button external_link" id="headlines_button_item" type="button" data-target="http://ng.hslayers.org/examples/geosparql/">GO TO FULL EXTENT</button>
+        </div>
+    </section>
+
+    <section class="section_dark" id="section_about">
+        <div class="width_settings">
+            <h3 id="about">What is SPOI data set?</h3>
+            <div class="colored_line"></div>
+			<div id="about_texts">
+				<p class="plain_text">The Smart Points of Interest data set is the seamless and open resource of POIs that is available for other users to download, search or reuse in applications and services. </p>
+				<p class="plain_text">Its principal target is to provide information for cycling as Linked data together with other data set containing road network.</p>
+				<p class="plain_text">The added value of the Smart approach in comparison to other similar solutions consists in implementation of linked data, using of standardized and respected datatype properties and development of the completely harmonized data set with uniform data model and common classification.</p>
+			</div>
+        </div>
+    </section>
+
+    <section id="section_contribution">
+        <div class="width_settings">
+            <h3 id="contribution">Why use SPOI data set?</h3>
+            <div class="colored_line"></div>
+            <div class="boxes" id="contribution_boxes">
+                <div class="box_white">
+                    <img class="img_white_box" alt="tick" src="img/tick.png" />
+                    <h4 class="box_white_title">OPEN AND SEAMLESS DATABASE</h4>
+                    <p class="box_white_text">The SDI4Apps team developed a seamless open database of POIs, which will be distributed as 5&#8209;star Linked Open Data to be accessible for all users.</p>
+                </div>
+                <div class="box_white">
+                    <img class="img_white_box" alt="tick" src="img/tick.png" />
+                    <h4 class="box_white_title">OPEN AND FLEXIBLE DATA MODEL</h4>
+                    <p class="box_white_text">The essential core of the model was extended by several attributes which are integral components of some original data and could be helpful for tourist purposes.</p>
+                </div>
+                <div class="box_white">
+                    <img class="img_white_box" alt="tick" src="img/tick.png" />
+                    <h4 class="box_white_title">COMBINATION OF GLOBAL AND LOCAL DATA</h4>
+                    <p class="box_white_text">The SPOI data set is created as a combination of global data (selected points from OpenStreetMap) and local data provided by the SDI4Apps partners or data available on the web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_dark" id="section_links">
+        <div class="width_settings">
+            <h3 id="links">Links</h3>
+            <div class="colored_line"></div>
+            <div class="boxes" id="links_boxes">
+                <div class="box external_link" data-target="http://data.plan4all.eu/sparql">
+                    <img class="img_box" alt="sparql" src="img/sparql.png" />
+                    <h4>SPARQL ENDPOINT</h4>
+                    <p class="box_text to_fill">The SPOI data set is published via SPARQL endpoint which enables comfortable, efficient and standardized querying of data.</p>
+                </div>
+                <div class="box box_with_links">
+                    <img class="img_box" alt="dwnld" src="img/download.png" />
+                    <h4>DOWNLOAD</h4>
+                    <p class="box_text box_link external_link" data-target="doc/SPOI.pdf">SPOI presentation [en, PDF, 0.8MB]</p>
+                </div>
+                <div class="box external_link" data-target="http://sdi4apps.eu/">
+                    <img class="img_box" alt="sdi4apps" src="img/sdi4apps.png" />
+                    <h4>SDI4Apps PROJECT</h4>
+                    <p class="box_text to_fill">S4A is an EU-funded project coordinated by the University of West Bohemia (Pilsen, CZ). It seeks to build a cloud-based framework with open APIs for data integration focusing on the development of 6 pilot applications.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section_contact">
+        <div class="width_settings">
+            <h3 id="contact">Contact</h3>
+            <div class="colored_line"></div>
+            <div id="contacts">
+                <button class="footer_contacts_icon external_link" id="sdi_footer_icon" type="button" value="&shy;" data-target="http://sdi4apps.eu/"></button>
+                <button class="footer_contacts_icon external_link" id="in_footer_icon" type="button" value="&shy;" data-target="http://www.linkedin.com/grp/home?gid=3516067"></button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="width_settings">
+            <p id="copyright">
+                © SDI4Apps, Pavel Vlach 2015
+            </p>
+            <p id="contributors">SPOI contributors: Otakar Čerba, Raitis Bērziņš, Karel Charvát, Pavel Vlach, Jáchym Kellar</p>
+            <p class="link" id="image_link">
+                Intro image: "OpenStreetMap GPS trace density" by Eric Fischer - <a href="http://www.flickr.com/photos/walkingsf/8033247558/" target="_blank">http://www.flickr.com/photos/walkingsf/8033247558/</a>. Licensed under CC BY 2.0 via Commons - <a href="https://commons.wikimedia.org/wiki/File:OpenStreetMap_GPS_trace_density.jpg" target="_blank">https://commons.wikimedia.org/wiki/File:OpenStreetMap_GPS_trace_density.jpg</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

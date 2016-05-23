@@ -1,0 +1,54 @@
+{  
+   "menu":[  
+      "HOME",
+      "VISUALIZZAZIONE",
+      "RIGUARDO A",
+      "CONTRIBUTO",
+      "COLLEGAMENTI",
+      "CONTATTO"
+   ],
+   "banner":{  
+      "headline":"Più di 23,000,000 Punti di Interesse nell'insieme di dati",
+      "headline_text":"Insieme di dati SPOI aperto e senza soluzione di continuità, che si basa su principi di dati Collegati, contiene oltre 23 milioni di Punti di Interesse importanti per il turismo in Europa ed in Africa."
+   },
+   "section_visualization":{  
+      "visualization":"Visualizzazione",
+      "headlines_button_item":"VAI ALLA VERSIONE ESTESA"
+   },
+   "section_about":{  
+      "about":"Cosa è l'insieme di dati SPOI?",
+      "about_texts":[  
+         "L'insieme dei dati dei Punti di Interesse di Smart è la risorsa aperta e senza soluzioni di continuità di Punti di Interesse (POIs) che è disponibile per il download di altri uitilizzatori, per ricerche o il riutilizzo in altre applicazioni e servizi",
+         "Il suo obiettivo principale è quello di fornire informazioni per il ciclismo come  dati collegati insieme ad altri insieme di dati  dati contenenti la rete stradale.",
+         "Il valore aggiunto dell'approccio Smart rispetto ad altre soluzioni simili consiste nella implementazione  di dati collegati utilizzando   tipi di dati precisi e standardizzati e sviluppando  insieme di  dati completamente armonizzati  con modelli di dati uniformi e con classificazione comune."
+      ]
+   },
+   "section_contribution":{  
+      "contribution":"Perchè utilizzare l'insieme di dati SPOI?",
+      "contribution_boxes_h":[  
+         "INSIEME DI DATI APERTO E SENZA SOLUZIONE DI CONTINUITÀ",
+         "MODELLO DI DATI APERTO E FLESSIBILE",
+         "COMBINAZIONE DI DATI GLOBALI E LOCALI"
+      ],
+      "contribution_boxes_p":[  
+         "Il team di SDI4Apps ha sviluppato un database di POIs aperto e sensa soluzioni di continuità che sarà distribuito da 5 Principale distributore di Dati Aperti Collegati per essere accessibili a tutti gli utilizzatori.",
+         "il nucleo del modetto  del modello è stato ampliato con le  diverse  caratteristiche  di alcuni dati originali e che potrebbero essere utili per scopi turistici.",
+         "L'insieme di dati SPOI è stato creato come una combinazione di dati globali (punti selezionati  da OPEN STREET MAP) e dati locali forniti dai partner di SDI4Apps o da dati disponibili sul WEB"
+      ]
+   },
+   "section_links":{  
+      "links":"Collegamenti",
+      "links_boxes_h":[  
+         "SPARQL ENDPOINT",
+         "SCARICARE",
+         "PROGETTO SDI4Apps "
+      ],
+      "links_boxes_p":[  
+         "L'insieme dei dati SPOI è puibblicato attraverso SPARQL endpoint che consente una facile, efficiente e standardizzata interrogazione dei dati.",
+         "S4A è un progetto finanziato dalla Commissione Europea ed è coordinato  dalla University of West Bohemia (Pilsen, CZ). Il suo obiettivo è quello di  costruire un quadro di riferimento cloud- based con Apps aperte per l'integrazione di dati finalizzati allo sviluppo di 6 applicazioni pilota."
+      ]
+   },
+   "section_contact":{  
+      "contact":"Contatto"
+   }
+}
