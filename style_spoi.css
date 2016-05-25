@@ -51,6 +51,14 @@
 	    color: rgb(69, 69, 69);
 	    transition: color 0.5s;
 	}
+	.basic_link {
+		color: rgb(0, 142, 214);
+		text-decoration: none;
+	}
+	.basic_link:hover {
+		color: rgb(0, 142, 214);
+		text-decoration: underline;
+	}
 	h2 {
 	    font-size: 2.6em;
 	    text-align: center;
