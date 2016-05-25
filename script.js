@@ -17,8 +17,14 @@ function externalLink(){
 function goTo() {
     var target = $(this).attr("data-target");
     var link = $(target);
+    var margin = 100;
+    var width = $(window).width();
+    if (width > 749 && width < 1301){
+        margin = 130;
+    }
+
     $('html, body').animate({
-        scrollTop: (link.offset().top) - 100
+        scrollTop: (link.offset().top) - margin
     }, 500);
     $('#menu_mobile').css("display", "none");
 }
