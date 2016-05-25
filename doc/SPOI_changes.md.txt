@@ -1,0 +1,27 @@
+# Smart Points of Interest data set (changes)
+
+* 2016-04-21 SPOI was introduced at [European Geosciences Union General Assembly 2016](http://egu2016.eu/) in Vienna, Austria.
+* 2016-04-12 **New version of SPOI uploaded to the Virtuoso.**
+* 2016-04-11 Small change in ID structure (added hash character). Complete data generated with the new ID.
+* 2016-03-22 Data from Citadel on the Move, ski resorts, Antwerpen, Issy, Zemgale, Pošumaví and Sicily was transformed to the new model for addresses. Other data does not contain any addresses or has confused addresses or addresses are not included in SPOI.
+* 2016-03-21 The property poi:address was replaced by address properties (locn:fullAddress, locn:poBox, locn:thoroughfare, locn:locatorDesignator, locn:locatorName, locn:addressArea, locn:postName, locn:adminUnitL2, locn:adminUnitL1, locn:postCode, locn:addressId) adopted from ISA Programme Location Vacabulary.
+* 2016-03-21 The complete SPOI data (24 106 299 POIs) are generated with the new ID. The current ID was developed on the basis of discussion with experts in OTN project. It is composed of prefix (for example OSM or GN), underscore character and ID adopted from original data or ID generated during data harmonization (in case of data resources not containing original ID).
+* 2016-03-21 New version of the SPOI web pages with more downloadable items (presentation, data model, data harmonization scheme) published.
+* 2016-03-15 New changes in the experimental data model: the maximum occurrance of all classification attributes was changed from 1 to *; new property poi:altitude (proposal of J. Voráček); the nearest geocache (poi:nearestGeocache).
+* 2016-02-26 Missing data resources (countries) from GeoNames.org completed. **The number of POIs exceeded 24 millions**.
+* 2016-02-25 Smart Points of Interest was added to the Wikipedia term [Point of Interest](https://en.wikipedia.org/wiki/Point_of_interest) as an example of royality free POI dataset.
+* 2016-02-22 New data (Cultural institutions from Timisoara, Romania) added.
+* 2016-02-05 The bug in data model (secodary geometry was mandatory) fixed.
+* 2016-02-05 Data model extended: new properties poi:region and poi:municipality describing optional link(s) to corresponding region (district, federal country...) and municipality.
+* 2016-01-25 **New version of SPOI uploaded to the Virtuoso.**
+* 2016-01-21 The bug (incompatible format of date) fixed.
+* 2016-01-21 The asWKT element was extended by rdf:datatype="http://www.openlinksw.com/schemas/virtrdf#Geometry" (to better implementation in Virtuoso).
+* 2016-01-20 Data from Pošumaví region (Czech Republic) updated.
+* 2016-01-20 New data (Zemgale region, Latvia) uploaded.
+* 2016-01-15 To the OpenStreetMap harmonization process was extended by the creation of links to relevant [LinkedGeoData.org](http://linkedgeodata.org/) objects. Links are realized through owl:sameAs and skos:exactMatch relations.
+* 2016-01-14 Waze category of OpenStreetMap Map Feature tourism.information was changed from Shopping and services to Outdoors.
+* 2016-01-14 The processing of coordinates was changed in case of Indenesian data from Citadel, because the latitude and longituge were published in reverse order.
+* 2016-01-14 Creating of this document including changes realized in the Smart Points of Interest (SPOI) project.
+
+* * *
+Otakar Čerba (ota.cerba@gmail.com)
