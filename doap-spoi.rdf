@@ -39,9 +39,7 @@
 	Smart data set "Bodov záujmu" je otvorený zdroj POI, ktorý je dostupný pre iných užívateľov na stiahnutie, hľadanie alebo opätovné použitie v aplikáciách a službách. Jeho základným cieľom je poskytnúť informácie pre cyklistiku ako prepojené dáta s inými datasetmi obsahujúcimi cestnú sieť. Pridaná hodnota prístupu Smart v porovnaní s inými porovnateľnými riešeniami spočíva v implementácii prepojených dát, použitím štandardizovaných a rešpektovaných dátových typov a vývoj kompletne harmonizovaného datasetu s harmonizovaným dátovým modelom a klasifikáciou.
 	</description>
 	
-	<!-- ============= add content =========== -->
-	<created>YYYY-MM-DD</created>
-	<!-- ============= -->
+	<created>2014-05-01</created>
 	<homepage rdf:resource="http://sdi4apps.eu/spoi/"/>
 	<license rdf:resource="http://opendatacommons.org/licenses/odbl/1.0/"/>
 	<service-endpoint rdf:resource="http://data.plan4all.eu/sparql"/>
@@ -79,14 +77,10 @@
 			<foaf:mbox rdf:resource="mailto:ota.cerba@gmail.com" />
 		</foaf:Person>
 	</helper>
-	
-	<!-- ============= add content =========== -->
 	<release>
 		<Version>
-			<name>***</name>
-			<created>YYYY-MM-DD</created>
-			<revision>***</revision>
+			<name>1606</name>
+            <created>2016-06-25</created>
 		</Version>
 	</release>
-	<!-- ============= -->
 </Project>
