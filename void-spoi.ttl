@@ -1,0 +1,38 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:SPOI a void:Dataset;
+	foaf:homepage <http://sdi4apps.eu/spoi>;
+	dcterms:title: "Smart POI data set";
+	dcterms:description "Open and seamless SPOI data set, which is based on Linked data principles, contains over 23 million Points of Interest important for tourism from around the world.";
+    dcterms:source <http://data.plan4all.eu/sparql>;
+	dcterms:created "2014-05-01"^^xsd:date;
+    dcterms:modified "2016-06-25"^^xsd:date;
+	dcterms:contributor :Otakar_Cerba;
+	dcterms:contributor :Raitis_Berzins;
+	dcterms:contributor :Karel_Charvat;
+	dcterms:contributor :Pavel_Vlach;
+	dcterms:contributor :Jachym_Kellar;
+	.
+:Otakar_Cerba a foaf:Person;
+	rdfs:label "Otakar Cerba";
+    foaf:mbox <mailto:ota.cerba@gmail.com>;
+    .
+:Raitis_Berzins a foaf:Person;
+	rdfs:label "Raitis Bērziņš";
+    foaf:mbox <mailto:raitisbe@gmail.com>;
+    .
+:Karel_Charvat a foaf:Person;
+	rdfs:label "Karel Charvát";
+    foaf:mbox <mailto:charvat@ccss.cz>;
+    .	
+:Pavel_Vlach a foaf:Person;
+	rdfs:label "Pavel Vlach";
+    foaf:mbox <mailto:vlach1989@gmail.com>;
+    .	
+:Jachym_Kellar a foaf:Person;
+	rdfs:label "Jáchym Kellar";
+    foaf:mbox <mailto:k.jachym@seznam.cz>;
+    .	
