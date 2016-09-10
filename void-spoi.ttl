@@ -15,6 +15,15 @@
 	dcterms:contributor :Karel_Charvat;
 	dcterms:contributor :Pavel_Vlach;
 	dcterms:contributor :Jachym_Kellar;
+	dcterms:license <http://opendatacommons.org/licenses/odbl/1.0/>;
+	dcterms:subject <http://dbpedia.org/page/Computer_science>;
+	dcterms:subject <http://dbpedia.org/page/Point_of_interest>;
+	dcterms:subject <http://dbpedia.org/page/Open_data>;
+	dcterms:subject <http://dbpedia.org/page/Linked_data>;
+	void:feature <http://www.w3.org/ns/formats/RDF_XML>;
+	void:feature <http://www.w3.org/ns/formats/SPARQL_Results_XML>;
+	void:feature <http://www.w3.org/ns/formats/SPARQL_Results_JSON>;
+	void:feature <http://www.w3.org/ns/formats/SPARQL_Results_CSV>;
 	.
 :Otakar_Cerba a foaf:Person;
 	rdfs:label "Otakar Cerba";
