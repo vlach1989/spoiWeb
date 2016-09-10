@@ -24,6 +24,8 @@
 	void:feature <http://www.w3.org/ns/formats/SPARQL_Results_XML>;
 	void:feature <http://www.w3.org/ns/formats/SPARQL_Results_JSON>;
 	void:feature <http://www.w3.org/ns/formats/SPARQL_Results_CSV>;
+	void:sparqlEndpoint <http://data.plan4all.eu/sparql>;
+	void:triples 23000000; 
 	.
 :Otakar_Cerba a foaf:Person;
 	rdfs:label "Otakar Cerba";
