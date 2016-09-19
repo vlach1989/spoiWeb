@@ -1,5 +1,11 @@
 # Smart Points of Interest data set (changes)
 
+* 2016-09-19 Metadata files added to SPOI web.
+* 2016-08-30 Initial version of the [SPOI Classification Ontology](http://gis.zcu.cz/spoi/doc/ontology.owl) is published.
+* 2016-08-20 Start of development of the new classification based on SPOI Ontology and transformation of particular input data.
+* 2016-06-14 **New version of SPOI uploaded to the Virtuoso** with almost 64 000 POIs from [Wikidata](http://www.wikidata.org).
+* 2016-05-09 **New version of SPOI uploaded to the Virtuoso.**
+* 2016-04-27 Data from Belluno (partner of the Foodie project) was integrated to SPOI.
 * 2016-04-21 SPOI was introduced at [European Geosciences Union General Assembly 2016](http://egu2016.eu/) in Vienna, Austria.
 * 2016-04-12 **New version of SPOI uploaded to the Virtuoso.**
 * 2016-04-11 Small change in ID structure (added hash character). Complete data generated with the new ID.
