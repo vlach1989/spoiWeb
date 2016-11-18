@@ -19,7 +19,7 @@
       "about":"Co je datová sada SPOI?",
       "about_texts":[  
          "Smart POI datová sada (POI = Point of Interest) je bezešvý a volně přístupný zdroj zájmových bodů, umožňující uživatelům tyto body stahovat, vyhledávat a používat pro vlastní aplikace.",
-         "Základním cílem SPOI datové sady je poskytovat formou Linked Data informace pro cykloturistiku propojené s dalšími sadami dat, včetně silničních sítí.",
+         "Základním cílem SPOI datové sady je poskytovat formou Linked Data informace propojené s dalšími sadami dat, včetně silničních sítí.",
          "Přínos Smart přístupu při porovnání s ostatními řešeními stejného problému spočívá v implementaci Linked Data, v použití standardizovaných a uznávaných datových typů a jejich vlastností a v rozvoji plně harmonizované databáze s jednotným datovým modelem a společným základním tříděním."
       ]
    },

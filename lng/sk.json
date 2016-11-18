@@ -19,7 +19,7 @@
       "about":"Čo je SPOI data set?",
       "about_texts":[  
          "Smart data set \"Bodov záujmu\" je otvorený zdroj POI, ktorý je dostupný pre iných užívateľov na stiahnutie, hľadanie alebo opätovné použitie v aplikáciách a službách.",
-         "Jeho základným cieľom je poskytnúť informácie pre cyklistiku ako prepojené dáta s inými datasetmi obsahujúcimi cestnú sieť.",
+         "Jeho základným cieľom je poskytnúť informácie ako prepojené dáta s inými datasetmi obsahujúcimi cestnú sieť.",
          "Pridaná hodnota prístupu Smart v porovnaní s inými porovnateľnými riešeniami spočíva v implementácii prepojených dát, použitím štandardizovaných a rešpektovaných dátových typov a vývoj kompletne harmonizovaného datasetu s harmonizovaným dátovým modelom a klasifikáciou."
       ]
    },

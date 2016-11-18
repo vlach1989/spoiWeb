@@ -19,7 +19,7 @@
       "about":"What is SPOI data set?",
       "about_texts":[  
          "The Smart Points of Interest data set is the seamless and open resource of POIs that is available for other users to download, search or reuse in applications and services.",
-         "Its principal target is to provide information for cycling as Linked data together with other data set containing road network.",
+         "Its principal target is to provide information as Linked data together with other data set containing road network.",
          "The added value of the Smart approach in comparison to other similar solutions consists in implementation of linked data, using of standardized and respected datatype properties and development of the completely harmonized data set with uniform data model and common classification."
       ]
    },
